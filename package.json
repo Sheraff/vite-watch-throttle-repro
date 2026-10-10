@@ -1,0 +1,12 @@
+{
+  "name": "vite-watch-throttle-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.js 10",
+    "control": "node repro.js 100"
+  },
+  "dependencies": {
+    "vite": "8.3.4"
+  }
+}
